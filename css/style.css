@@ -400,7 +400,7 @@ h2,
 /* header top*/
 .site-header {
   position: absolute !important;
-  top: 0;
+  top: 16px;
   width: 100%;
   z-index: 10 !important;
 }
@@ -530,6 +530,7 @@ h2,
 .list-reset li {
   margin: 0;
 }
+
 .social-media img {
   width: 24px; /* 设置图片宽度 */
   height: 24px; /* 设置图片高度 */
@@ -538,7 +539,13 @@ h2,
 
 .social-media li {
   display: inline-block;
-  margin-right: 16px; /* 这里设置图标之间的间距 */
+  margin-right: 0px; /* 这里设置图标之间的间距 */
+}
+ul.social-media li a {
+  display: inline-block; /* 将 <a> 标签设置为行内块级元素 */
+  text-decoration: none; /* 移除 <a> 标签的默认下划线 */
+  padding: 0; /* 确保没有额外的内边距 */
+  margin: 0; /* 确保没有额外的外边距 */
 }
 
 .top-sign-up-button {
