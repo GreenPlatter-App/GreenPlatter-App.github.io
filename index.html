@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Tidy Template</title>
+    <title>Green Platter</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="has-animations">
@@ -15,28 +15,20 @@
             <div class="brand">
               <h1 class="m-0">
                 <a href="index.html"
-                  ><img src="images/logo.jpg" alt="Tidy" width="32" height="32"
+                  ><img src="images/logo.jpg" alt="GreenPlatter" width="48" height="48"
                 /></a>
               </h1>
             </div>
-            <button
-              id="header-nav-toggle"
-              class="header-nav-toggle"
-              aria-controls="primary-menu"
-              aria-expanded="false"
-            >
-              <span class="screen-reader">Menu</span>
-              <span class="hamburger"
-                ><span class="hamburger-inner"></span
-              ></span>
-            </button>
             <nav id="header-nav" class="header-nav">
               <div class="header-nav-inner">
-                <ul class="list-reset text-xs header-nav-right">
-                  <li></li>
+                <ul class="social-media list-reset header-nav-right">
+                  <li class="linkedin"><img src="images/linkedin.png"/></a></li>
+                  <li class="x"><img src="images/x.png"/></a></li>
+                  <li class="instagram"><img src="images/instagram.png"/></a></li>
+                  
                 </ul>
                 <ul class="list-reset header-nav-right">
-                  <li></li>
+                  <li class="top-sign-up-button"><a href="#sign-up">Sign Up</a></li>
                 </ul>
               </div>
             </nav>
@@ -44,7 +36,7 @@
         </div>
       </header>
       <main class="site-content">
-        <section class="hero section has-bg-color invert-color">
+        <section class="page-1 hero section has-bg-color invert-color">
           <div class="container">
             <div class="hero-inner section-inner">
               <div class="split-wrap">
@@ -52,28 +44,23 @@
                   <div
                     class="hero-content split-item-content center-content-mobile reveal-from-top"
                   >
-                    <h2 class="mt-0 mb-16">GreenPlatter: Master Your Diabetes</h2>
-                    <p class="mt-0 mb-32">
-                      Real-Time Blood-Glucose-Driven Meal Plans for Personalized Nutrition.
+                    <h2 class="greenplatter-title"><a href="index.html" style="text-decoration: none; color: inherit;"
+                      >GREENPLATTER</a></h2>
+                    <h3>EAT SMART. LIVE WELL.<br>MASTER YOUR DIABETES.</h3>
+                    <p class="page-1-desription mt-0 mb-32">
+                      Empower your health with Al-driven, real-time meal plans personalized to your blood glucose levels. GreenPlatter puts a dietician in your pocket, helping you master diabetes and live healthier.
                     </p>
                     <div class="button-group">
                     </div>
                   </div>
                   <div
                     class="hero-figure split-item-image split-item-image-fill illustration-element-01 reveal-from-bottom"
-                  >
-                    <a
-                      class="modal-trigger"
+                    class="modal-trigger"
                       aria-controls="modal-01"
-                      data-video="https://player.vimeo.com/video/174002812"
-                      data-video-tag="iframe"
-                      href="#"
-                      ><img
-                        src="images/video-placeholder.jpg"
-                        alt="Video"
-                        width="528"
-                        height="396"
-                    /></a>
+                  >
+                    <video controls width="528" height="396">
+                      <source src="images/GreenPlatter-Demo-Video.mp4" type="video/mp4">Your browser does not support the video tag.
+                   </video>
                   </div>
                   <div id="modal-01" class="modal modal-video">
                     <div class="modal-inner">
@@ -81,6 +68,7 @@
                         <iframe
                           src="#"
                           frameborder="0"
+                          
                           webkitallowfullscreen
                           mozallowfullscreen
                           allowfullscreen
@@ -93,332 +81,96 @@
             </div>
           </div>
         </section>
-        <section class="features-tiles section">
+        <section class="page-2 features-app section">
           <div class="container">
+            <p class="app-description">
+              GREENPLATTER EMPOWERS DIABETIC PATIENTS WITH AI-DRIVEN, <span class="highlight">REAL-TIME MEAL PLANS</span> TAILORED TO THEIR BLOOD GLUCOSE LEVELS. OUR APP OFFERS PERSONALIZED NUTRITION GUIDANCE, <span class="highlight">ACTING AS A DIETICIAN IN YOUR POCKET</span>. WHETHER NEWLY DIAGNOSED OR REFINING YOUR ROUTINE, GREENPLATTER HELPS YOU MASTER DIABETES AND LIVE HEALTHIER.
+            </p>
             <div class="features-tiles-inner section-inner">
               <div class="tiles-wrap">
                 <div
-                  class="tiles-item reveal-from-bottom"
+                  class="tiles-item reveal-from-bottom tile-1"
                   data-reveal-container=".tiles-wrap"
                 >
                   <div class="tiles-item-inner">
-                    <div class="features-tiles-item-header">
-                      <div class="features-tiles-item-image mb-16">
-                        <img
-                          src="images/feature-tile-icon-01.svg"
-                          alt="Feature tile icon 01"
-                        />
-                      </div>
-                    </div>
                     <div class="features-tiles-item-content">
-                      <h4 class="mt-0 mb-8">Patient's Problem</h4>
-                      <p class="m-0 text-sm">
-                        Lack sufficient knowledge to make informed dietary 
-                        choices that align with their health needs
-                      </p>
+                      <img src="images/Calendar.png" alt="Calendar" />
                     </div>
+                    <h5>Calendar</h5>
+                    <p>Provide Personalized Weekly and Daily Meal Plans at Your Fingertips</p>
                   </div>
                 </div>
+
                 <div
-                  class="tiles-item reveal-from-bottom"
+                  class="tiles-item reveal-from-bottom tile-2"
                   data-reveal-container=".tiles-wrap"
                   data-reveal-delay="100"
                 >
                   <div class="tiles-item-inner">
-                    <div class="features-tiles-item-header">
-                      <div class="features-tiles-item-image mb-16">
-                        <img
-                          src="images/feature-tile-icon-02.svg"
-                          alt="Feature tile icon 02"
-                        />
-                      </div>
-                    </div>
                     <div class="features-tiles-item-content">
-                      <h4 class="mt-0 mb-8">Doctor's Problem</h4>
-                      <p class="m-0 text-sm">
-                        Limited time for nutritional counseling creates lack of personalized 
-                        guidance and difficulty to maintain consistent blood glucose
-                      </p>
+                      <img src="images/GreenBot.png" alt="GreenBot"/>
                     </div>
+                    <h5>GreenBot</h5>
+                    <p>Answer patients' real-time questions about their daily diet.</p>
                   </div>
                 </div>
+
                 <div
-                  class="tiles-item reveal-from-bottom"
+                  class="tiles-item reveal-from-bottom tile-3"
                   data-reveal-container=".tiles-wrap"
                   data-reveal-delay="200"
                 >
                   <div class="tiles-item-inner">
-                    <div class="features-tiles-item-header">
-                      <div class="features-tiles-item-image mb-16">
-                        <img
-                          src="images/feature-tile-icon-03.svg"
-                          alt="Feature tile icon 03"
-                        />
-                      </div>
-                    </div>
                     <div class="features-tiles-item-content">
-                      <h4 class="mt-0 mb-8">Payor's Problem</h4>
-                      <p class="m-0 text-sm">
-                        The costs of managing chronic complications of diabetes 
-                        can be mitigated through dietary management
-
-                      </p>
+                      <img src="images/ShoppingCart.png" alt="ShoppingCart"/>
                     </div>
+                    <h5>Shopping Cart</h5>
+                    <p>Streamline Your Shopping with Tailored Lists in Meal Planning</p>
                   </div>
                 </div>
+
                 <div
-                  class="tiles-item reveal-from-bottom"
+                  class="tiles-item reveal-from-bottom tile-4"
                   data-reveal-container=".tiles-wrap"
                   data-reveal-delay="300"
                 >
                   <div class="tiles-item-inner">
-                    <div class="features-tiles-item-header">
-                      <div class="features-tiles-item-image mb-16">
-                        <img
-                          src="images/feature-tile-icon-04.svg"
-                          alt="Feature tile icon 04"
-                        />
-                      </div>
-                    </div>
                     <div class="features-tiles-item-content">
-                      <h4 class="mt-0 mb-8">Solution: Personalized Meal Plan </h4>
-                      <p class="m-0 text-sm">
-                        Initiate meal plans crafted from users’ 
-                        unique anthropometric data and health goals
-                      </p>
+                      <img src="images/NearbyGrocery.png" alt="NearbyGrocery"/>
                     </div>
+                    <h5>Nearby Grocery Stores</h5>
+                    <p>Locate Nearby Stores for Easy Shopping</p>
                   </div>
                 </div>
-                <div
-                  class="tiles-item reveal-from-bottom"
-                  data-reveal-container=".tiles-wrap"
-                  data-reveal-delay="400"
-                >
-                  <div class="tiles-item-inner">
-                    <div class="features-tiles-item-header">
-                      <div class="features-tiles-item-image mb-16">
-                        <img
-                          src="images/feature-tile-icon-05.svg"
-                          alt="Feature tile icon 05"
-                        />
-                      </div>
-                    </div>
-                    <div class="features-tiles-item-content">
-                      <h4 class="mt-0 mb-8">Solution: AI-Driven Adaptation </h4>
-                      <p class="m-0 text-sm">
-                        Employ advanced AI to fine-tune meal plans based 
-                        on real-time feedback & health metrics
-                      </p>
-                    </div>
-                  </div>
                 </div>
-                <div
-                  class="tiles-item reveal-from-bottom"
-                  data-reveal-container=".tiles-wrap"
-                  data-reveal-delay="500"
-                >
-                  <div class="tiles-item-inner">
-                    <div class="features-tiles-item-header">
-                      <div class="features-tiles-item-image mb-16">
-                        <img
-                          src="images/feature-tile-icon-06.svg"
-                          alt="Feature tile icon 06"
-                        />
-                      </div>
-                    </div>
-                    <div class="features-tiles-item-content">
-                      <h4 class="mt-0 mb-8">Solution: Ease to Adhere</h4>
-                      <p class="m-0 text-sm">
-                        Feature a personalized AI dietary chatbot that answers users' 
-                        real-time questions about their daily diet
+              </div>
+            </div>
+          </div>
+        </section>
 
-                      </p>
-                    </div>
-                  </div>
-                </div>
+        <section class="page-3 news section">
+              <div class="container">
+                  <p class="review">“As a busy professional, I needed a way to manage my diet without constant planning. GreenPlatter makes it effortless. The shopping list feature is a lifesaver, and I love how the app adjusts to my needs daily.”</p>
+                  <p class="reviewer">— Sarah M</p>
+                  <p class="review">“GreenPlatter has completely changed how I manage my diabetes. The personalized meal plans are spot on, and the real-time adjustments based on my blood sugar levels give me peace of mind. It’s like having a dietician with me all the time!”</p>
+                  <p class="reviewer">— Linda P</p>
               </div>
+        </section>
+
+        <section id='sign-up' class="page-4 sign-up">
+          <div class="container">
+            <h4>SIGN UP AS ONE OF OUR BETA USERS!</h4>
+            <p class="sign-up-text">Join our exclusive Beta program and be among the first to experience GreenPlatter’s cutting-edge AI-driven meal planning. As a Beta User, you'll have the opportunity to test new features, provide valuable feedback, and help shape the future of personalized diabetes management.</p>
+            <div class="email-sign-up">
+              <input type="email" class="email-input" id="email-input" placeholder="Email Address">
+              <button class="signup-button" onclick="signUp()">Sign Up</button>
             </div>
           </div>
         </section>
-        <section
-          class="features-tabs section center-content has-bottom-divider"
-        >
+      </div>
       
-        </section>
-        <section class="news section illustration-section-01">
-          <div class="container">
-            <div class="news-inner section-inner">
-              <div class="section-header center-content">
-                <div class="container-xs">
-                  <h2 class="mt-0 mb-16">Our Product</h2>
-                  <p class="mb-0">
-                    Registered Dietician in your pocket: an AI-powered app designed 
-                    specifically for diabetes patients by assisting them in daily meal preparation.
-                  </p>
-                </div>
-              </div>
-              <div class="tiles-wrap">
-                <article class="tiles-item reveal-from-bottom">
-                  <div class="tiles-item-inner has-shadow">
-                    <figure class="news-item-image m-0">
-                      <img
-                        src="images/news-image-01.jpg"
-                        alt="News 01"
-                        width="344"
-                        height="194"
-                      />
-                    </figure>
-                    <div class="news-item-content">
-                      <div class="news-item-body">
-                        <h3 class="news-item-title h4 mt-0 mb-8">
-                          <a href="#">Personalized Meal Plan</a>
-                        </h3>
-                        <p class="mb-16 text-sm">
-                          Initiate meal plans crafted from users’ 
-                          unique anthropometric data and health goals
-                        </p>
-                      </div>
-                      <div class="news-item-more text-xs mb-8">
-                        <a href="#">Read more</a>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-                <article
-                  class="tiles-item reveal-from-bottom"
-                  data-reveal-delay="200"
-                >
-                  <div class="tiles-item-inner has-shadow">
-                    <figure class="news-item-image m-0">
-                      <img
-                        src="images/news-image-02.jpg"
-                        alt="News 02"
-                        width="344"
-                        height="194"
-                      />
-                    </figure>
-                    <div class="news-item-content">
-                      <div class="news-item-body">
-                        <h3 class="news-item-title h4 mt-0 mb-8">
-                          <a href="#">AI-Driven Adaptation</a>
-                        </h3>
-                        <p class="mb-16 text-sm">
-                          Employ advanced AI to fine-tune meal plans 
-                          based on BG value and health metrics
-                        </p>
-                      </div>
-                      <div class="news-item-more text-xs mb-8">
-                        <a href="#">Read more</a>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-                <article
-                  class="tiles-item reveal-from-bottom"
-                  data-reveal-delay="400"
-                >
-                  <div class="tiles-item-inner has-shadow">
-                    <figure class="news-item-image m-0">
-                      <img
-                        src="images/news-image-03.jpg"
-                        alt="News 03"
-                        width="344"
-                        height="194"
-                      />
-                    </figure>
-                    <div class="news-item-content">
-                      <div class="news-item-body">
-                        <h3 class="news-item-title h4 mt-0 mb-8">
-                          <a href="#">Real Time Response</a>
-                        </h3>
-                        <p class="mb-16 text-sm">
-                          Feature a personalized AI dietary chatbot that answers users' 
-                          real-time questions about their daily diet
-                        </p>
-                      </div>
-                      <div class="news-item-more text-xs mb-8">
-                        <a href="#">Read more</a>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="roadmap section has-top-divider">
-          <div class="container">
-            <div class="roadmap-inner section-inner">
-              <div class="section-header center-content">
-                <div class="container-xs">
-                  <h2 class="mt-0 mb-16">Product roadmap</h2>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-wrap">
-                  <div class="timeline-item">
-                    <div class="timeline-item-inner">
-                      <div
-                        class="timeline-item-header text-color-low tt-u mb-4 reveal-fade"
-                      >
-                        June 2023
-                      </div>
-                      <div
-                        class="timeline-item-content fw-700 h4 m-0 reveal-from-side"
-                      >
-                        Built the team and started to build the Minimium Viable Product
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline-item">
-                    <div class="timeline-item-inner">
-                      <div
-                        class="timeline-item-header text-color-low tt-u mb-4 reveal-fade"
-                      >
-                        March 2024
-                      </div>
-                      <div
-                        class="timeline-item-content fw-700 h4 m-0 reveal-from-side"
-                      >
-                        Deployed a high-quality first release and conducted a
-                        market validation test
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline-item">
-                    <div class="timeline-item-inner">
-                      <div
-                        class="timeline-item-header text-color-low tt-u mb-4 reveal-fade"
-                      >
-                        May 2024
-                      </div>
-                      <div
-                        class="timeline-item-content fw-700 h4 m-0 reveal-from-side"
-                      >
-                        Restructured the team and refined the product based on customer feedbacks
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline-item">
-                    <div class="timeline-item-inner">
-                      <div
-                        class="timeline-item-header text-color-low tt-u mb-4 reveal-fade"
-                      >
-                        August 2024 (Expected)
-                      </div>
-                      <div
-                        class="timeline-item-content fw-700 h4 m-0 reveal-from-side"
-                      >
-                        Launched the App on App
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <script src="./js/script.js"></script>
+        <script src="js/main.min.js"></script>
       </main>
       <footer class="site-footer center-content-mobile invert-color">
         <div class="container">
