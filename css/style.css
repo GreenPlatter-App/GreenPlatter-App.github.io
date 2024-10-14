@@ -2384,6 +2384,11 @@ p.app-description {
   align-items: center;
   white-space: nowrap;
   margin-bottom: 0;
+  justify-content: center;
+  list-style: none;
+  gap: 24px;
+  font-size: 16px;
+  padding: 0;
 }
 .footer-social ul {
   margin-right: -16px;
