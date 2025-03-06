@@ -2858,6 +2858,10 @@ ul.pricing-item-features-list li {
 }
 
 /* page-4 sign-up */
+.page-4 {
+  padding-bottom: 100px;
+}
+
 .page-4 h4 {
   text-align: center;
   font-size: 30px;
@@ -2943,6 +2947,52 @@ ul.pricing-item-features-list li {
 }
 
 /* page-4 email signup notification */
+
+.contact-us {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us > h4 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.contact-us > input {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.contact-us > textarea {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.contact-us > button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #c6f7be;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contact-us > button:disabled {
+  background-color: #ccc;
+}
 
 /*  */
 .signin .section-header {
